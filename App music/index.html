@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrazione app</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div id="topbar">
+        <img src="assets/vinile-Photoroom.png-Photoroom (1).png" id="vinile"/> 
+        <h1 id="titolo"> SOUNDSTREAM </h1>
+    </div>
+    <div id="content"> 
+    <div id="leftside">
+        <h2> Ascolta quando vuoi i tuoi BRANI preferiti  </h2>
+    </div>
+    <div id="rightside">
+        <div id="registrazione" >
+         <h2 > Registrati e alza il Volume</h2>
+        </div>
+        <form onsubmit="alert('Grazie, Form Inviato!')">
+      <div class="dati">
+        <div class="info">
+          <input type="text" placeholder="Nome*"/>
+          </div>
+        <div class="info">
+         <input type="text" placeholder="Cognome*"/>
+        </div>
+      </div>
+      <div class="dati">
+        <div class="info">
+         <input type="email" placeholder="Email*"/>
+        </div>
+       <div class="info">
+        <input type="password" placeholder="Password*"/>
+       </div>
+      </div>
+      <div class="dati">
+        <div class="info">
+         <input type="text" placeholder="Data di nascita"/>
+        </div>
+       <div class="info">
+        <input type="number" placeholder="Numero*"/>
+       </div>
+      </div>
+      <br>
+      <br>
+      <div id="musica">
+        <h2> I tuoi generi musicali</h2>
+      </div>
+      <div class="checkbox">
+        <div class="generi">
+         <input type="checkbox"/>
+         <div><p> Rock</p></div>
+        </div>
+       <div class="generi">
+        <input type="checkbox"/>
+        <div>
+        <p> Metal</p>
+         </div>
+       </div>
+       <div class="generi">
+         <input type="checkbox">
+           <p> Classica</p> 
+       </div>
+      </div>
+       <div class="checkbox">
+        <div class="generi">
+         <input type="checkbox"/>
+         <div><p> Pop</p></div>
+        </div>
+       <div class="generi">
+        <input type="checkbox"/>
+        <div>
+        <p> Rap</p>
+         </div>
+       </div>
+       <div class="generi">
+         <input type="checkbox">
+           <p> Jazz</p> 
+       </div>
+       </div>
+      <br>
+      <br> 
+      <br> 
+       <div id="privacy"> <input type="radio"> Accetto i termini e le condizioni di Privacy
+       </div>
+       <br>
+       <button type="submit" id="bottone">Invia</button>
+     
+      </form>  
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+
+body{
+    background-size: 100% 100%;
+    color:white;
+    background-image: url("assets/sound.png");
+
+
+    
+}
+#topbar{
+    margin:0 2em; display: flex;
+}
+#leftside{
+    display: flex; justify-content: center ;font-size: 3em; width: 50%; margin-top: 220px; margin-left: 1em;
+}
+#rightside{
+ width: 50%; 
+}
+#vinile{
+    height: 4em; margin: 1em; position: relative; left: -20px;
+} 
+#titolo{
+    margin-left: -30px;     font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#content{
+    display: flex; height: 100vh;
+}
+#registrazione{
+    display: flex; justify-content: center;
+}
+.info{
+      padding: 1em;
+}
+.dati{
+    display: flex; justify-content: center;
+}
+
+#musica{
+    display: flex; justify-content: center;
+}
+.checkbox{
+    display: flex; justify-content: space-evenly;
+}
+.generi{
+    display: flex;
+}
+#privacy{
+    display: flex; justify-content: center;
+}
+#bottone{
+     margin-left: 340px; position: relative; bottom: -30px;
+}
